@@ -1,4 +1,4 @@
-package postgress
+package postgres
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ import (
 
 func Connect() (*gorm.DB, error) {
 	// set url
-	url := fmt.Sprintf("host=%v user=%v password=%v dbname=%v port=%v", viper.GetString("postgres.host"), viper.GetString("postgres.user"), viper.GetString("postgres.password"), viper.GetString("postgres.name"), viper.GetString("postgres.port"))
+	url := fmt.Sprintf("host=%v user=%v password=%v dbname=%v port=%v", viper.GetString("postgres.host"), viper.GetString("postgres.user"), viper.GetString("postgres.password"), viper.GetString("postgres.database"), viper.GetString("postgres.port"))
 	// connect to postgres
 	db, err := gorm.Open(postgres.Open(url), &gorm.Config{
 		Logger: logger.Default.LogMode(logger.Silent),

@@ -1,10 +1,16 @@
 server:
+  host: 127.0.0.1
   port: 8080
-  mode: "local"
-  version: "1.0.0"
-postgres:
-  host: "localhost"
-  port: 5432
-  database: "todo"
-  user: "root"
-  password: "bangadam"
+  secret_key: "secret"
+# postgres:
+#   host: localhost
+#   port: 3306
+#   password: bangadam
+#   user: root
+#   database: "backend_test_majoo"
+mysql:
+  host: localhost
+  port: 3306
+  password: bangadam
+  user: root
+  database: "backend_test_majoo"

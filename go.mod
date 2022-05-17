@@ -3,16 +3,21 @@ module github.com/bangadam/go-fiber-boilerplate
 go 1.18
 
 require (
+	github.com/go-ozzo/ozzo-validation v3.6.0+incompatible
 	github.com/gofiber/fiber/v2 v2.33.0
+	github.com/golang-jwt/jwt/v4 v4.4.1
 	github.com/spf13/viper v1.11.0
 	go.uber.org/zap v1.21.0
+	gorm.io/driver/mysql v1.3.3
 	gorm.io/driver/postgres v1.3.5
 	gorm.io/gorm v1.23.5
 )
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
+	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
+	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.12.0 // indirect

@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  mode: "local"
+  version: "1.0.0"
+postgres:
+  host: "localhost"
+  port: 5432
+  database: "todo"
+  user: "root"
+  password: "bangadam"

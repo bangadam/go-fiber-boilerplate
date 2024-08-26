@@ -20,7 +20,7 @@ require (
 	go.uber.org/automaxprocs v1.5.1
 	go.uber.org/fx v1.18.1
 	gorm.io/driver/postgres v1.4.6
-	gorm.io/gorm v1.24.2
+	gorm.io/gorm v1.25.9
 )
 
 require (
